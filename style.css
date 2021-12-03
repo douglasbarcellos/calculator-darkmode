@@ -14,3 +14,14 @@ html {
     --color: #000;
     --hover_color: #e7e7e7;
 }
+
+body[data-theme="dark"] {
+    --bg: #0e0e0e;
+    --sec_bg: #222222;
+    --color: #fff;
+    --hover_color: #424242;
+}
+
+body {
+    background: var(--bg);
+}
