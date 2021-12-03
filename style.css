@@ -7,3 +7,10 @@
     box-sizing: border-box;
     font-family: 'Zen Dots', cursive;
 }
+
+html {
+    --bg: #f1f1f1;
+    --sec_bg: #fff;
+    --color: #000;
+    --hover_color: #e7e7e7;
+}
