@@ -25,3 +25,10 @@ body[data-theme="dark"] {
 body {
     background: var(--bg);
 }
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
