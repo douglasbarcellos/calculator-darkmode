@@ -121,3 +121,20 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.137);
     font-size: 1.5rem;
 }
+
+.active {
+    animation: anim .4s;
+}
+
+@keyframes anim {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+        background: var(--hover_color);
+    }
+}
