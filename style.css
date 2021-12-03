@@ -89,3 +89,21 @@ body {
 .input {
     cursor: pointer;
 }
+
+.input #display {
+    width: 74%;
+    height: 60px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.cancle_btn {
+    width: 24%;
+    height: 60px;
+    border: none;
+    background: #ff8303;
+    font-size: 1.5rem;
+    color: white;
+}
