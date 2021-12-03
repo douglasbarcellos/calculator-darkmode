@@ -1,4 +1,4 @@
-//Calculadora com função Dark
+//Calculadora com função Dark :) 
 const switchbtn = document.getElementById("switch");
 const display = document.getElementById("display");
 const input = document.querySelectorAll("input");
